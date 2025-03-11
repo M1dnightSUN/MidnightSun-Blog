@@ -22,7 +22,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 // https://astro.build/config
 export default defineConfig({
   site: "https://M1dnightSUN.github.io",
-  base: "/M1dnightSUN-Blog/",
+  base: "/MidnightSun-Blog",
   trailingSlash: "always",
   integrations: [
     tailwind(
