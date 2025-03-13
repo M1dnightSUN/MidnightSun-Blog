@@ -1,7 +1,7 @@
 ---
-title: Day1-数组 part01
+title: Day01-数组 part01
 published: 2025-03-12
-description: 数组基础, 二分查找，双指针
+description: 数组基础，二分查找，双指针
 tags: [C++, 数组, 二分查找, 移除元素, 双指针]
 category: 算法训练营
 draft: false
