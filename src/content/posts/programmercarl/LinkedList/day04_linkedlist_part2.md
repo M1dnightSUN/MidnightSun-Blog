@@ -1,7 +1,7 @@
 ---
 title: Day04-链表 part02
 published: 2025-03-15
-description: 链表， 交换链表节点
+description: 链表， 交换链表节点，删除倒数第n个节点，链表相交，环形链表
 tags: [链表, C++, 递归, 双指针, 哈希表]
 category: 算法训练营
 draft: False
