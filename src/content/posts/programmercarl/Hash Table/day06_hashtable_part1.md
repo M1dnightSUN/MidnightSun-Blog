@@ -7,7 +7,7 @@ category: 算法训练营
 draft: false
 ---
 
-## 1. **哈希表**
+## 哈希表
 
 ### 哈希表的概念
 
@@ -97,7 +97,7 @@ draft: false
 
 [^2]: [代码随想录-常见的三种哈希结构](https://programmercarl.com/%E5%93%88%E5%B8%8C%E8%A1%A8%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html#%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%89%E7%A7%8D%E5%93%88%E5%B8%8C%E7%BB%93%E6%9E%84)
 
-## 2. **有效的字母异位词**
+## 有效的字母异位词
 
 [242.有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
 

@@ -7,7 +7,7 @@ category: 算法训练营
 draft: false
 ---
 
-## 1. **四数相加**
+## 四数相加
 
 [454.四数相加II](https://leetcode-cn.com/problems/4sum-ii/)
 
@@ -47,7 +47,7 @@ int fourSumCount(vector<int>& nums1, vector<int>& nums2, vector<int>& nums3, vec
 
 这里需要注意的是，要求的是所有符合条件的元组，所以在进行哈希表查询的时候，`count` 要加上所有符合条件的元组，也就是 `map[target]` 的值。
 
-## 2. **赎金信**
+## 赎金信
 
 [383.赎金信](https://leetcode-cn.com/problems/ransom-note/)
 
@@ -110,7 +110,7 @@ bool canConstruct(string ransomNote, string magazine) {
 }
 ```
 
-## 3. **三数之和**
+## 三数之和
 
 [15.三数之和](https://leetcode-cn.com/problems/3sum/)
 
@@ -165,7 +165,7 @@ vector<vector<int>> threeSum(vector<int>& nums) {
 - 对于 `c` 的去重，要判断 `nums[right] == nums[right - 1]`，因为 `right` 是与上一次比较的。
 - 最后因为去重是持续进行的，所以要使用 `while` 循环，直到不重复为止。
 
-## 4. **四数之和**
+## 四数之和
 
 [18.四数之和](https://leetcode-cn.com/problems/4sum/)
 

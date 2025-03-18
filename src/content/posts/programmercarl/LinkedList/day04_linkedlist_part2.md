@@ -11,7 +11,7 @@ draft: False
 
 [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/description/)
 
-### 1. **遍历链表**
+### 遍历链表
 在这种类型的题中，通常可以使用虚拟头节点的方法来做。这样可以避免对头节点的特殊处理。
 
 在遍历链表时，要注意遍历结束的条件：
@@ -65,7 +65,7 @@ ListNode* swapPairs(ListNode* head) {
 ```
 在不清楚的地方，把图画一下就很好理解了。
 
-### 2. **递归的实现**
+### 递归的实现
 这里也可以使用递归的方法来来实现，这里我们递归交换后续节点，并将其连接到 `head` 的后面
 ```cpp
 ListNode* swapPairs(ListNode* head) {
@@ -149,7 +149,7 @@ ListNode* removeNthFromEnd(ListNode* head, int n) {
 
 [160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/)
 
-### 1. **哈希表方法**
+### 哈希表方法
 首先最直观的一个想法是使用哈希表
 
 我们先遍历链表 `A`, 将 `A` 中的元素记录到哈希表中，然后再遍历链表 `B`，如果在哈希表中找到了相同的节点，那么这个节点就是相交的节点。
@@ -173,7 +173,7 @@ ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
     return nullptr;
 }
 ```
-### 2. **随想录中的解法**
+### 随想录中的解法
 
 我们可以分别求出两个链表的长度，然后让较长的链表先走 `lenA - lenB` 步，然后两个链表一起走，直到找到相交的节点。
 
@@ -217,7 +217,7 @@ ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
 ```
 这里需要注意的就是在判断相交的时候一定是判断指针相等而不是值相等。
 
-### 3. **双指针法**
+### 双指针法
 
 双指针的思路，使用两个指针 p1 和 p2 分别遍历两个链表：
 
@@ -270,7 +270,7 @@ ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
 
 解决这个问题，我们需要拆分成两个步骤。
 
-### 1. **如何确定有环**
+### 如何确定有环
 
 搜了一下，这个其实有个专有名词，叫**Floyd 判圈法**。
 
@@ -294,7 +294,7 @@ Floyd 判圈法（Floyd’s Cycle Detection Algorithm）是一种 使用快慢�
 
 这里还有一个明确的地方：慢指针和快指针的相遇，一定是在**第一圈**内。
 
-### 2. **如何确定环的入口（Floyd 判圈法）**
+### 如何确定环的入口（Floyd 判圈法）
 
 假设：
 
