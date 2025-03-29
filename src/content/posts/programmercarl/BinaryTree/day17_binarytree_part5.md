@@ -1,5 +1,5 @@
 ---
-title: Day17-二叉树 part04
+title: Day17-二叉树 part05
 published: 2025-03-28
 description: 二叉树，二叉搜索树，最大二叉树，合并二叉树，验证二叉搜索树
 tags: [C++, 二叉树, 队列, BFS, DFS, 递归, 迭代, 二叉搜索树]
