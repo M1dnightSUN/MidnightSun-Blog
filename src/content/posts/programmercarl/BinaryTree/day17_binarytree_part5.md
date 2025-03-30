@@ -77,7 +77,7 @@ TreeNode* mergeTrees(TreeNode* ro root1, TreeNode* root2) {
         return root2;
     }
     if (root2 == nullptr) { // 如果树2是空的，返回树1
-        return ro root1;
+        return root1;
     }
     // 如果两个树都不为空，那么就合并
     TreeNode* node = new TreeNode(ro root1->val + root2->val); // 新建一个节点，值为两棵树的根节点之和
