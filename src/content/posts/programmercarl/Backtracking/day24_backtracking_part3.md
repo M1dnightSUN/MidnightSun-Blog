@@ -1,13 +1,13 @@
 ---
 title: Day24-回溯算法 part03
 published: 2025-04-04
-description: 回溯算法，复原IP地址
+description: 回溯算法，复原IP地址，子集，子集II
 tags: [C++, 回溯, 字符串]
 category: 算法训练营
 draft: false
 ---
 
-## ## 复原IP地址
+## 复原IP地址
 
 [93. 复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/)
 
@@ -192,7 +192,7 @@ public:
 
 [90. 子集 II](https://leetcode-cn.com/problems/subsets-ii/)
 
-次问题是一个综合了[子集](#子集)和[组合总和II](day23_backtracking_part2.md#组合总和ii)的问题，无非就是在子集问题上加了一个去重的操作。
+次问题是一个综合了[子集](#子集)和[组合总和II](https://m1dnightsun.github.io/MidnightSun-Blog/posts/programmercarl/backtracking/day23_backtracking_part2/#%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8Cii)的问题，无非就是在子集问题上加了一个去重的操作。
 
 代码其实不难，主要是要注意去重的操作。
 
