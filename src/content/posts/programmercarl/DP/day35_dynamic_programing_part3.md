@@ -1,7 +1,7 @@
 ---
 title: Day35-动态规划 part03
 published: 2025-04-15
-description: 动态规划
+description: 动态规划，0-1背包问题，分割等和子集
 tags: [C++, 动态规划]
 category: 算法训练营
 draft: false
@@ -213,7 +213,7 @@ for (int j = target; j >= num; --j) {
 
 - 判断 `dp[target]` 是否为 `true`，表示能否恰好选出和为 `sum / 2` 的子集
 
-### 整体代码如下：
+#### 整体代码如下：
 
 ```cpp
 class Solution {
@@ -237,7 +237,7 @@ public:
 };
 ```
 
-### 时间复杂度：
+#### 时间复杂度：
 
 - 时间复杂度：`O(N * target)`，其中 `N` 为数组长度，`target = sum / 2`
 - 空间复杂度：`O(target)`，使用一维 `dp` 数组优化空间
