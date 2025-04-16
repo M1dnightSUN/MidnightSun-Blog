@@ -1,7 +1,7 @@
 ---
 title: Day36-动态规划 part04
 published: 2025-04-16
-description: 动态规划
+description: 动态规划，最后一块石头的重量II，目标和，一和零
 tags: [C++, 动态规划]
 category: 算法训练营
 draft: false
