@@ -1,5 +1,5 @@
 ---
-title: Day37-动态规划 part06
+title: Day38-动态规划 part06
 published: 2025-04-19
 description: 动态规划，完全背包问题，零钱兑换，完全平方数，单词拆分
 tags: [C++, 动态规划, 背包问题, 字符串]
