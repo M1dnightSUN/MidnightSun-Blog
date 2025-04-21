@@ -2,7 +2,7 @@
 title: Day41-动态规划 part08
 published: 2025-04-21
 description: 动态规划，买卖股票 I & II & III
-tags: [C++, 动态规划, 二叉树]
+tags: [C++, 动态规划]
 category: 算法训练营
 draft: false
 ---
