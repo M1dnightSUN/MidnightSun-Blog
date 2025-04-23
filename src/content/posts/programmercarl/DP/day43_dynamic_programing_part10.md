@@ -1,7 +1,7 @@
 ---
 title: Day43-动态规划 part10
 published: 2025-04-23
-description: 动态规划，
+description: 动态规划，最长递增子序列，最长连续递增子序列，最长重复子序列
 tags: [C++, 动态规划, 子序列]
 category: 算法训练营
 draft: false
