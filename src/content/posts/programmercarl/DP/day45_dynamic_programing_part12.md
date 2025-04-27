@@ -1,5 +1,5 @@
 ---
-title: Day43-动态规划 part12
+title: Day45-动态规划 part12
 published: 2025-04-25
 description: 动态规划，不同的子序列，两个字符串的删除操作，编辑距离
 tags: [C++, 动态规划]

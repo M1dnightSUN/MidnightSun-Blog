@@ -1,5 +1,5 @@
 ---
-title: Day43-动态规划 part11
+title: Day44-动态规划 part11
 published: 2025-04-24
 description: 动态规划，最长公共子序列，不相交的线，最大子序和，判断子序列
 tags: [C++, 动态规划, 子序列]
